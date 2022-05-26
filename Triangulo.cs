@@ -8,14 +8,26 @@ namespace Geometria
 {
     class Triangulo
     {
-        private int m_lado;
+        private int angulo;
+        private int ladoA;
+        private int ladoB;
 
-        public int Lado
+        public int LadoA
         {
-            get => default;
-            set
-            {
-            }
+            get { return ladoA; }
+            set { ladoA = value; }
+        }
+
+        public int LadoB
+        {
+            get { return ladoB; }
+            set { ladoB = value; }
+        }
+
+        public int Angulo
+        {
+            get { return angulo; }
+            set { angulo = value; }
         }
 
         public void CalcularPerimetro()

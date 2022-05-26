@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circulo.cs" />
+    <Compile Include="Cuadrado.cs" />
+    <Compile Include="Rectangulo.cs" />
+    <Compile Include="Poligono.cs" />
     <Compile Include="Triangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
